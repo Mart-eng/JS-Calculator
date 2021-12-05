@@ -2,105 +2,50 @@
 <html>
     <head>
         <link rel="stylesheet" href="Calculator.css">
-        <!--<link rel = "stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">-->
     </head>
     <body>
         <div id="calculator_body">
 
             <!-- Top level display-->
             <div class="row" id="calculator-display">
-                <p></p>
+                <p id="output"></p>
             </div>
             <!-------------------------------------------------------->
+
             <!-- Buttons-->
-            <div class="row" id="first-row">
-
-                <div class="column first-column">
+            <div class="row">
+                <div class="column" id="first-column">
                     <button id="plus-sign">+</button>
-                </div>
-
-                <div class="column second-column">
-                    <button id="minus-sign">-</button>
-                </div>
-
-                <div class="column third-column">
-                    <button id="multiply-sign">x</button>
-                </div>
-
-                <div class="column fourth-column">
-                    <button id="divide-sign">÷</button>
-                </div>
-            </div>
-            <!-------------------------------------------------------->
-            <div class="row" id="second-row">
-
-                <div class="column first-column" >
                     <button id="seven">7</button>
-                </div>
-
-                <div class="column second-column">
-                    <button id="eight">8</button>
-                </div>
-
-                <div class="column third-column">
-                    <button id="nine">9</button>
-                </div>
-
-            </div>
-
-            <!-------------------------------------------------------->
-            <div class="row" id="third-row">
-
-                <div class="column first-column">
                     <button id="four">4</button>
-                </div>
-
-                <div class="column second-column">
-                    <button id="five">5</button>
-                </div>
-
-                <div class="column third-column">
-                    <button id="six">6</button>
-                </div>
-            </div>
-            <!-------------------------------------------------------->
-            <div class="row" id="fourth-row">
-
-                <div class="column first-column">
                     <button id="one">1</button>
-                </div>
-
-                <div class="column second-column">
-                    <button id="two">2</button>
-                </div>
-                
-                <div class="column third-column">
-                    <button id="three">3</button>
-                </div>
-            </div>
-            <!-------------------------------------------------------->
-            <div class="row" id="fifth-row">
-
-                <div class="column first-column">
                     <button id="zero">0</button>
+                
                 </div>
-
-                <div class="column second-column">
+                <!-------------------------------------------------------->
+                <div class="column" id="second-column">
+                    <button id="minus-sign">-</button>
+                    <button id="eight">8</button>
+                    <button id="five">5</button>
+                    <button id="two">2</button>
                     <button id="dot">.</button>
                 </div>
-
-                <div class="column third-column">
+                <!-------------------------------------------------------->
+                <div class="column" id="third-column">
+                    <button id="multiply-sign">x</button>
+                    <button id="nine">9</button>
+                    <button id="six">6</button>
+                    <button id="three">3</button>
                     <button id="clear">C</button>
                 </div>
-            </div>
-
-            <!-------------------------------------------------------->
-            <div class="column fourth-column" id="equal-sign-column">
-                <button id="equal-sign">=</button>
-            </div>
-
-        </div>
-
+                <!-------------------------------------------------------->
+                <div class="column" id="fourth-row">
+                    <button id="divide-sign">÷</button>
+                    <button id="equal-sign">=</button>
+        
+                </div>
+            </div> <!-- End of buttons-->
+        </div> <!-- End of calculator body-->
     </body>
     <script src="Calculator.js"></script>
 </html>
