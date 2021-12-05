@@ -1,3 +1,10 @@
+#calculator-body {
+    display: flex;
+    width: 50%;
+    padding:3%;
+    justify-self: center;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -10,4 +17,30 @@
     flex-direction: column;
     flex-basis: 50%;
     flex: 1;
+}
+
+#calculator-display {
+    border: solid 2px black;
+}
+
+#second-row, #third-row, #fourth-row, #fifth-row {
+    justify-content: left;
+    background-color: aquamarine;
+    width: 75%;
+}
+
+#equal-sign-column{
+    width: 20%;
+    align-self:flex-start;
+    align-items: stretch;
+    margin-left: auto;
+}
+#equal-sign{
+    
+    align-self: flex-end;
+}
+
+button{
+    margin: 2%;
+    padding: 2%;
 }
