@@ -20,12 +20,61 @@ var eight = document.getElementById("eight").addEventListener("click", buttonCli
 var nine = document.getElementById("nine").addEventListener("click", buttonClicked);
 
 
+
 function buttonClicked() {
     console.log(this.id);
-    switch(Event.getElementById) {
-        case addSign:
-            console.log("hi");
-
+    switch(this.id) {
+        case "plus-sign":
+            output.innerHTML += "+";
+            break;
+        case "minus-sign":
+            output.innerHTML += "-";
+            break;
+        case "multiply-sign":
+            output.innerHTML += "x";
+            break;
+        case "divide-sign":
+            output.innerHTML += "÷";
+            break;
+        case "clear":
+            output.innerHTML = "";
+            break;
+        case ".":
+            output.innerHTML += ".";
+            break;
+        case "zero":
+            output.innerHTML += "0";
+            break;
+        case "one":
+            output.innerHTML += "1";
+            break;
+        case "two":
+            output.innerHTML += "2";
+            break;
+        case "three":
+            output.innerHTML += "3";
+            break;
+        case "four":
+            output.innerHTML += "4";
+            break;
+        case "five":
+            output.innerHTML += "5";
+            break;
+        case "six":
+            output.innerHTML += "6";
+            break;
+        case "seven":
+            output.innerHTML += "7";
+            break;
+        case "eight":
+            output.innerHTML += "8";
+            break;
+        case "nine":
+            output.innerHTML += "9";
+            break;
+        case "equal-sign":
+            console.log("equal sign was pressed");
+            break;
     }
     event.preventDefault();
 }
