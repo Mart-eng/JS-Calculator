@@ -1,3 +1,6 @@
+body {
+    border: gray solid 1px;
+}
 #calculator-body {
     display: flex;
     width: 50%;
@@ -22,17 +25,28 @@
 }
 
 #calculator-display {
-    border: solid 2px black;
+    border: solid 1px gray;
 }
 
 #equal-sign{
     align-content: stretch;
     align-self:stretch;
-    background-color: royalblue;
+    background-color: rgb(21, 165, 255);
     height: -webkit-fill-available;
 }
 
 button{
     margin: 2%;
     padding: 2%;
+    font-size: larger;
+    font-style: bold;
+}
+
+
+#output {
+    margin-left: 3%;
+}
+
+#plus-sign, #minus-sign, #multiply-sign, #divide-sign {
+    background-color: rgba(73, 73, 73,.5);
 }

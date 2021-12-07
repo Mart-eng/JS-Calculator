@@ -31,10 +31,10 @@ function buttonClicked() {
             output.innerHTML += "-";
             break;
         case "multiply-sign":
-            output.innerHTML += "x";
+            output.innerHTML += "*";
             break;
         case "divide-sign":
-            output.innerHTML += "÷";
+            output.innerHTML += "/";
             break;
         case "clear":
             output.innerHTML = "";
@@ -74,6 +74,7 @@ function buttonClicked() {
             break;
         case "equal-sign":
             console.log("equal sign was pressed");
+            output.innerHTML = eval(output.innerHTML);
             break;
     }
     event.preventDefault();
